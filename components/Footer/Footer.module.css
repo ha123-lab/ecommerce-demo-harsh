@@ -1,0 +1,262 @@
+.Footer {
+    background-color: #000;
+    margin-top: 110px;
+}
+
+.FooterRow {
+    padding: 80px 0 60px 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.subscribetitle {
+    color: #FAFAFA;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.discountFooter {
+    color: #FAFAFA;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0 16px 0;
+}
+
+.FooterTitle {
+    color: #FAFAFA;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.FooterRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterCol {
+    text-align: left;
+    color: #fff;
+}
+
+.subscription {
+    border: 1.5px solid #FAFAFA;
+    border-radius: 4px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.subscription .Message {
+    background-color: transparent;
+}
+
+.FooterHead {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-right: 80px;
+    text-align: left;
+}
+
+.FooterCol ul li {
+    margin-bottom: 16px;
+}
+
+.FooterCol ul li a {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.FooterEmail1[type="email"] {
+    width: 250px;
+    border: none;
+    background: #000;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color: #fff;
+    margin-right: 0px;
+}
+
+.FooterSubmitButton {
+    padding: 4px 24px;
+    background: #000;
+    color: #FFFFFF;
+    border: 0.772727px solid #FFFFFF;
+    border-radius: 32.4545px;
+    margin-left: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100px;
+}
+
+.FooterSubmitButton:hover {
+    color: #000;
+    background: #fff;
+}
+
+.FooterMid {
+    height: 72px;
+    width: 562px;
+    left: 0px;
+    top: 80px;
+    border-radius: 'nullpx';
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 562px;
+    height: 72px;
+    left: 0px;
+    top: 66px;
+    /* Paragraph - Desktop 15px */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    /* or 173% */
+    color: #FFFFFF;
+    max-width: 100%;
+    text-align: left;
+}
+
+.FooterCart {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 24px;
+    width: 35px;
+    left: 0px;
+    top: 80px;
+    border-radius: 'nullpx';
+    margin-top: 16px;
+}
+
+.FooterWishlist {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.FooterShop {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.FooterPrivacy {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.FooterCondition {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.FooterFQ {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.FooterContact {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.FooterSave {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FAFAFA;
+    margin-top: 24px;
+}
+
+.FooterCol address {
+    max-width: 175px;
+    color: #FAFAFA;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ContactLink {
+    max-width: 175px;
+}
+
+.ContactLink a {
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 16px 0;
+    display: flex;
+}
+
+.FooterQrapplogo {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0 28px 0;
+}
+
+.AppIcon {
+    margin-top: 12px;
+}
+
+.FooterCopyRight {
+    /* Button */
+    background: #000000;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+.FooterCopyInfo {
+    margin-top: 9px;
+}

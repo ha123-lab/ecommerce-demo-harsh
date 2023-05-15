@@ -1,0 +1,134 @@
+.DsiscountBanner {
+    background: #000000;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.BannerInfo {
+    display: flex;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.DiscountText {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: White;
+}
+
+.HeaderShopnow {
+    margin-left: 8px;
+    line-height: 24px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.LanguageSelectorWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 231px;
+    border: none;
+}
+
+.LanguageSelector {
+    margin-left: 0.5rem;
+    width: auto;
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar .row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 0 38px 0;
+}
+
+.navigation .navigationList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .navigationList li {
+    padding: 0 24px;
+}
+
+.navigation .navigationList li a {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.searchbar {
+    min-width: 243px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar input[type="search"] {
+    background: transparent;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.searchbar .btn-outline-success {
+    font-size: 0;
+}
+
+
+/* For the Home link */
+
+.HeaderHome:hover,
+.HeaderHome:focus {
+    color: red;
+}
+
+
+/* For the Contact link */
+
+.HeaderContact:hover,
+.HeaderContact:focus {
+    color: blue;
+}
+
+
+/* For the About link */
+
+.HeaderAbout:hover,
+.HeaderAbout:focus {
+    color: green;
+}
+
+
+/* For the Sign Up link */
+
+.HeaderSignUp:hover,
+.HeaderSignUp:focus {
+    color: purple;
+}
+
+.navbar ul li:hover {
+    background-color: green;
+}
+
+.navbar ul li:hover a {
+    color: white;
+}
