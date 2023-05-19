@@ -1,0 +1,194 @@
+.FlashSalesProducts {
+    padding: 14px 0 80px 0;
+}
+
+.Container {
+    max-width: 1170px;
+    margin: 0 auto;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.3)
+}
+
+.Row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.TitleDetailes {
+    margin-bottom: 31px;
+}
+
+.Subtile {
+    color: #DB4444;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.Subtile::before {
+    content: '';
+    width: 20px;
+    height: 40px;
+    background: #DB4444;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.ProductTitle {
+    color: #000;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.ProductCard {
+    width: 270px;
+}
+
+.ProductThumbnail {
+    padding: 35px 40px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    position: relative;
+}
+
+.ProductImage {
+    margin: 0 auto;
+    max-width: auto;
+}
+
+.ProductDetailes {
+    margin-top: 16px;
+}
+
+.ProductName {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.ProductPrice {
+    margin: 8px 0;
+}
+
+.ProductReview .checked {
+    color: orange;
+    border-radius: 1.4px;
+    width: 20px;
+    height: 20px;
+}
+
+.Saleprice {
+    color: #DB4444;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 12px;
+}
+
+.ProductBaseprice {
+    color: #000;
+    font-weight: 500;
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ProductReview {
+    display: flex;
+    align-items: center;
+}
+
+.ReviewCounter {
+    color: #000;
+    font-weight: 500;
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 8px;
+}
+
+.ViewallProducts {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.ViewallProducts a {
+    min-width: 234px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FAFAFA;
+    background-color: #DB4444;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.DiscountIcon {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    background: #DB4444;
+    padding: 4px 12px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FAFAFA;
+    border-radius: 4px;
+}
+
+.HeartViewIcon {
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.HeartIcon {
+    margin-bottom: 8px;
+}
+
+.AddtocartButton {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.ProductThumbnail:hover .AddtocartButton {
+    display: block;
+}
+
+.CartButton {
+    background-color: #000;
+    color: white;
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.HeartIcon,
+.ViewIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+}
+
+.CartButton {
+    background-color: #000;
+    color: white;
+}

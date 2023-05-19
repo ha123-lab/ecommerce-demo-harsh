@@ -49,6 +49,7 @@
 
 .navbar {
     background-color: white;
+    /* border-bottom: 0.5px solid grey; */
 }
 
 .navbar .row {

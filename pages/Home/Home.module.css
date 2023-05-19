@@ -1,0 +1,83 @@
+.Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two equal-width columns */
+    gap: 5px;
+    /* Gap between columns */
+}
+
+.Sidebar {
+    /* Styles for the sidebar */
+    /* border-right: 2px solid black;
+    padding-right: 10px; */
+}
+
+.Background {
+    width: 892px;
+    height: 344px;
+    left: 413px;
+    top: 182px;
+    background: #000000;
+    margin: auto;
+    margin-right: 143px;
+    background-image: url("../../assets/BannerImage.jpg");
+}
+
+.content {
+    /* Styles for the main content */
+}
+
+.sidebarEcommerce {
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+
+.Hello {
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 0px 0px 199px;
+    color: #000000;
+}
+
+.Men {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    padding: 0px 0px 0px 199px;
+    margin-top: 16px;
+}
+
+.Lifestyle {
+    padding: 0px 0px 0px 199px;
+    margin-top: 16px;
+}
+
+.Sports {
+    padding: 0px 0px 0px 199px;
+    margin-top: 16px;
+}
+
+.Pets {
+    padding: 0px 0px 0px 199px;
+    margin-top: 16px;
+}
+
+.Beauty {
+    padding: 0px 0px 0px 199px;
+    margin-top: 16px;
+}
+
+.List {
+    width: 89%;
+    border-right: 2px solid lightgrey;
+}
+
+.List li:hover {
+    background-color: pink;
+}

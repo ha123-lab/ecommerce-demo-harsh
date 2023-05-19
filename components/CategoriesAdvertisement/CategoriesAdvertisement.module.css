@@ -1,0 +1,85 @@
+.Container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.CategoryImage {
+    position: relative;
+}
+
+.CategoryContent {
+    position: absolute;
+    top: 69px;
+    left: 56px;
+    max-width: 443px;
+}
+
+.CategoryTitle {
+    color: #00FF66;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ExperienceTitle {
+    color: #FAFAFA;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 32px 0;
+}
+
+.TimerDetailes {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+}
+
+.TimingContent {
+    width: 62px;
+    height: 62px;
+    background: #ffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 14px 7px;
+}
+
+.TimingCount {
+    display: block;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.TimingName {
+    color: #000;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.BuynowButton {
+    margin-top: 40px;
+}
+
+.BuynowButton button {
+    background: #00FF66;
+    border-radius: 4px;
+    color: #ffff;
+    width: 171px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
